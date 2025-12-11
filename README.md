@@ -79,3 +79,17 @@ To get VSCode IDE support, along with the prescribed RedHat Java Extensions, add
   ]
 }
 ```
+
+## To Execute MapReduce Programs
+
+- Make sure you have done `source bash.sh` before proceeding
+
+- Execute the following commands (example demo below) while being in the mapreduce directory.
+
+```bash
+javac "$(hadoop classpath)" wordcount/*.java
+jar -cvf wordcount.jar -C . wordcount
+hadoop jar wordcount.jar wordcount.driver inputs/wordcount_input.txt outputs/wordcount_output
+```
+
+- Your output will be available in the part-00000 file created in the `outputs/wordcount_output` directory.
