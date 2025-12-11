@@ -61,7 +61,6 @@ A collection of Big Data Laboratory Programs (ISL75, RITB ISE 2022)
 
   Getting warnings, or errors would mean that there are some unresolved conflict or you messed the previous steps up.
 
-
 ## IDE Support
 
 To get VSCode IDE support, along with the prescribed RedHat Java Extensions, add the followings to your local `.vscode/settings.json`:
