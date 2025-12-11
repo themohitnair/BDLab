@@ -1,0 +1,13 @@
+{
+  "java.compile.nullAnalysis.mode": "disabled",
+  "java.project.referencedLibraries": [
+    "/home/themohitnair/Skywalker/BDLab/env/hadoop/share/hadoop/common/*.jar",
+    "/home/themohitnair/Skywalker/BDLab/env/hadoop/share/hadoop/common/lib/*.jar",
+    "/home/themohitnair/Skywalker/BDLab/env/hadoop/share/hadoop/hdfs/*.jar",
+    "/home/themohitnair/Skywalker/BDLab/env/hadoop/share/hadoop/hdfs/lib/*.jar",
+    "/home/themohitnair/Skywalker/BDLab/env/hadoop/share/hadoop/mapreduce/*.jar",
+    "/home/themohitnair/Skywalker/BDLab/env/hadoop/share/hadoop/mapreduce/lib/*.jar",
+    "/home/themohitnair/Skywalker/BDLab/env/hadoop/share/hadoop/yarn/*.jar",
+    "/home/themohitnair/Skywalker/BDLab/env/hadoop/share/hadoop/yarn/lib/*.jar",
+  ]
+}
