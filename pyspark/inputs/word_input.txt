@@ -1,0 +1,4 @@
+Lol this lab is so outdated
+pig is legacy
+sparkcontext is not a good way to use pyspark
+RoFL LMAO
